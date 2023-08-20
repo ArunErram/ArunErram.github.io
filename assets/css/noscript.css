@@ -1,0 +1,65 @@
+
+
+/* Spotlights */
+
+	.spotlights > section > .image:before {
+		opacity: 0 !important;
+	}
+
+	.spotlights > section > .content > .inner {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+	}
+
+/* Wrapper */
+
+	.wrapper > .inner {
+		opacity: 1 !important;
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+	}
+
+/* Sidebar */
+
+	#sidebar > .inner {
+		opacity: 1 !important;
+	}
+
+	#sidebar nav > ul > li {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+	}
+
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-color: #f2f2f2;
+	  }
+	  
+	  .profile-pic {
+		width: 150px;
+		height: 100px;
+		border-radius: 50%; /* Makes the image round */
+		overflow: hidden; /* Hides any part of the image that goes beyond the rounded shape */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow to the image */
+	  }
+	  
+	  .profile-pic img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Ensures the image covers the entire container */
+	  }
+	  
