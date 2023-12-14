@@ -38,7 +38,7 @@
 		<!-- Intro -->
 		<section id="intro" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
-				<h1>Arun kumar Erram</h1>
+				<h1 id="sentenceContainer"></h1>
 				<p>I am Arun Erram. Welcome to my portfolio! With a strong foundation in software
 					development, I bring two years of hands-on experience as a Software Developer and Software Engineer
 					at Infosys. My journey in the tech world has been centered around Java, where I've honed my skills
@@ -232,6 +232,29 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+
+		// Get the container div
+        const container = document.getElementById('sentenceContainer');
+
+        // Your sentence
+        const sentence = "Arun Kumar Erram.";
+
+        // Split the sentence into words
+        const words = sentence.split(' ');
+
+        // Display each word with a span element
+        words.forEach((word, index) => {
+            const span = document.createElement('span');
+            span.textContent = word + '\u00A0';
+            container.appendChild(span);
+
+            // Add a delay for each word (adjust the delay as needed)
+            setTimeout(() => {
+                span.style.animationDelay = index * 0.3 + 's';
+            }, 0);
+        });
+	</script>
 
 </body>
 
