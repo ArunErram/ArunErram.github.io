@@ -227,9 +227,11 @@ body.is-preload *:after {
 }
 .tech-logo {
 	background-color: #f2f2f2;
-	width: 100px; /* Adjust the size as needed */
+	width: 150px; /* Adjust the size as needed */
 	margin-right: 8px;
-	margin-left: 20px;
+	margin-left: 10px;
+	/* border-left: 10px; */
+	
 }
 
 
