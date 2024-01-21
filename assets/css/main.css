@@ -213,7 +213,7 @@ body.is-preload *:after {
 	gap: 20px;
 }
 .horizontal-list_icons img{
-	width: 90px;
+	width: 60px;
 	height: auto;
 	border-radius: 8px;
 	background-color: #312450;
@@ -222,7 +222,7 @@ body.is-preload *:after {
 
 .horizontal-list_icons img:hover {
 	background: rgb(236, 227, 227);
-	width: 120px;
+	width: 100px;
 	border-radius: 8px;
 	/* padding-left: -1px; */
 	cursor: pointer;
