@@ -206,8 +206,28 @@ body.is-preload *:after {
 
 .horizontal-list {
 	list-style: none;
-	padding: 0;
+	padding-right: 5px;
 	display: flex;
+	
+	/* Adjust space between items */
+	gap: 20px;
+}
+.horizontal-list_icons img{
+	width: 90px;
+	height: auto;
+	border-radius: 8px;
+	background-color: #312450;
+	padding-top: 10px;
+}
+
+.horizontal-list_icons img:hover {
+	background: rgb(236, 227, 227);
+	width: 120px;
+	border-radius: 8px;
+	/* padding-left: -1px; */
+	cursor: pointer;
+	transform: scale(1.05s);
+	transition: background-color 0.3s ease;
 	/* Adjust space between items */
 	gap: 20px;
 }
@@ -264,7 +284,8 @@ textarea {
 	body,
 	input,
 	select,
-	textarea {
+	textarea,
+	.horizontal-list{
 		font-size: 12pt;
 	}
 
@@ -275,7 +296,8 @@ textarea {
 	body,
 	input,
 	select,
-	textarea {
+	textarea,
+	.horizontal-list {
 		font-size: 11pt;
 	}
 
