@@ -14,7 +14,7 @@ const Header = () => {
   <img 
     src="https://imagizer.imageshack.com/v2/320x240q70/922/1XXyvm.jpg" 
     alt="Arun" 
-    className="w-32 h-32 rounded-full" // Increased size to 8rem (128px)
+    className="w-26 h-28 rounded-full" // Increased size to 8rem (128px)
   />
   <div className="text-2xl font-bold text-black-900">Arun Erram</div>
 </div>
