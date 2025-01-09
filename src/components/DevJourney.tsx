@@ -17,7 +17,7 @@ const DevJourney = () => {
       ],
     },
     {
-      year: "Jun 2019 - Jan 2020",
+      year: "Apr 2019 - May 2021",
       title: "Software Engineer Intern",
       company: "Philips Health Care. Ltd.",
       details: [
