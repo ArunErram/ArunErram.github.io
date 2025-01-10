@@ -10,7 +10,7 @@ const DevJourney = () => {
       title: "Software Engineer",
       company: "Infosys. Ltd",
       details: [
-        "Developed scalable microservices and full-stack applications using Java/J2EE, Spring Boot, and frontend technologies, improving performance by 30% and reducing latency by 15%.",
+        "Developed scalable microservices and full-stack applications using Java/J2EE, Spring Boot, and frontend technologies(Angular & ReactJs), improving performance by 30% and reducing latency by 15%.",
         "Implemented backend solutions with Core Java, Spring MVC, Hibernate, and multithreading, enabling seamless integration and efficient data processing.",
         "Designed RESTful and SOAP services, integrating with relational and NoSQL databases, ensuring high availability and optimal data management.",
         "Achieved 90% code coverage through JUnit/Mockito testing, improved system performance by 50%, and successfully collaborated in Agile environments.",
