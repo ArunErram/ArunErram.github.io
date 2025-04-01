@@ -4,10 +4,21 @@ const DevJourney = () => {
   const [activeTab, setActiveTab] = useState<"work" | "education">("work");
 
   const workExperience = [
+      
+    {
+      year: "Aug 2024 - Present",
+      title: "Java Full Stack Developer",
+      company: "Gieco",
+      details: [
+      "Designed and developed scalable financial applications, optimizing real-time transaction processing, fraud detection, and claims automation.",
+      "Built Java Spring Boot services, React frontends, Kafka-based pipelines and AWS , improving fraud detection by 45% and system efficiency by 30%.",
+      "Integrated Docker, Kubernetes, and CI/CD pipelines for seamless deployments.",
+      ],
+    },
     
     {
       year: "Jun 2021 - Jun 2023",
-      title: "Software Engineer",
+      title: "Senior Systems Associate",
       company: "Infosys. Ltd",
       details: [
         "Developed scalable microservices and full-stack applications using Java/J2EE, Spring Boot, and frontend technologies(Angular & ReactJs), improving performance by 30% and reducing latency by 15%.",
@@ -18,7 +29,7 @@ const DevJourney = () => {
     },
     {
       year: "Apr 2019 - May 2021",
-      title: "Software Engineer Intern",
+      title: "Software Engineer ",
       company: "Philips Health Care. Ltd.",
       details: [
         "Developed web apps with Angular, TypeScript, and RxJS, improving UI performance by 25%.",
